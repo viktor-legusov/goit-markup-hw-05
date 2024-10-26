@@ -418,8 +418,19 @@
                         </div>    
                 </div>
                 <div class="modal-comment">
-                    <label for="user-comment" class="modal-group">Comment</label>
+                    <label for="user-comment" class="modal-list-name">Comment</label>
                    <textarea name="user-comment" id="user-comment" rows="7" class="modal-comment-text" placeholder="Text input">Text input</textarea>
+                </div>
+                <div class="moodal-checkbox">
+                    <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="moodal-checkbox-btn visually-hidden">
+                    <label for="user-privacy" class="modal-group">I accept the terms and conditions of the<span class="modal-group-ice">
+                        <svg width="10" height="8" class="modal-group-vinil">
+                        <use href="./images/icons1.svg#icon-click"></use>
+                        </svg>
+                        </span>
+                        <a class="privacy-policy" href="">Privacy Policy</a>
+                </label>
+                <button class="modal-button-send" type="button">Send</button>
                 </div>  
             </form>
         </div>              
