@@ -515,9 +515,11 @@ margin-bottom: 16px;
 
 .footer-flag {
     margin-left: 80px;
+    
 }
 
 .footer-flag-text {
+    margin-left: 24px;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
