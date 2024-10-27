@@ -763,8 +763,7 @@ input::placeholder {
     margin-bottom: 24px;
 }
 
-.modal-group {
-    display: flex;
+.modal-group {    
     font-size: 12px;
     line-height: 1.17;
     gap: 4px;
@@ -782,6 +781,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex; 
     width: 16px; 
     height: 16px; 
     margin-right: 8px;
